@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBDCB7DF1BFEAC31001B39B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCB7DE1BFEAC31001B39B0 /* AppDelegate.swift */; };
+		BBDCB7E11BFEAC31001B39B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCB7E01BFEAC31001B39B0 /* ViewController.swift */; };
+		BBDCB7E41BFEAC31001B39B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDCB7E21BFEAC31001B39B0 /* Main.storyboard */; };
+		BBDCB7E61BFEAC31001B39B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDCB7E51BFEAC31001B39B0 /* Assets.xcassets */; };
+		BBDCB7E91BFEAC31001B39B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDCB7E71BFEAC31001B39B0 /* LaunchScreen.storyboard */; };
+		BBDCB7F41BFEAC31001B39B0 /* hackday_ios_yammer_introTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCB7F31BFEAC31001B39B0 /* hackday_ios_yammer_introTests.swift */; };
+		BBDCB7FF1BFEAC31001B39B0 /* hackday_ios_yammer_introUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCB7FE1BFEAC31001B39B0 /* hackday_ios_yammer_introUITests.swift */; };
+		BBDCB80F1BFF946F001B39B0 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCB80E1BFF946F001B39B0 /* IntroViewController.swift */; };
+		BBDCB8111BFFA0E8001B39B0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCB8101BFFA0E8001B39B0 /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBDCB7F01BFEAC31001B39B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDCB7D31BFEAC31001B39B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDCB7DA1BFEAC31001B39B0;
+			remoteInfo = "hackday-ios-yammer-intro";
+		};
+		BBDCB7FB1BFEAC31001B39B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDCB7D31BFEAC31001B39B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDCB7DA1BFEAC31001B39B0;
+			remoteInfo = "hackday-ios-yammer-intro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBDCB7DB1BFEAC31001B39B0 /* hackday-ios-yammer-intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hackday-ios-yammer-intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDCB7DE1BFEAC31001B39B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBDCB7E01BFEAC31001B39B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBDCB7E31BFEAC31001B39B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBDCB7E51BFEAC31001B39B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDCB7E81BFEAC31001B39B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBDCB7EA1BFEAC31001B39B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDCB7EF1BFEAC31001B39B0 /* hackday-ios-yammer-introTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hackday-ios-yammer-introTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDCB7F31BFEAC31001B39B0 /* hackday_ios_yammer_introTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackday_ios_yammer_introTests.swift; sourceTree = "<group>"; };
+		BBDCB7F51BFEAC31001B39B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDCB7FA1BFEAC31001B39B0 /* hackday-ios-yammer-introUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hackday-ios-yammer-introUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDCB7FE1BFEAC31001B39B0 /* hackday_ios_yammer_introUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackday_ios_yammer_introUITests.swift; sourceTree = "<group>"; };
+		BBDCB8001BFEAC31001B39B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDCB80E1BFF946F001B39B0 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = "hackday-ios-yammer-intro/Controllers/IntroViewController.swift"; sourceTree = "<group>"; };
+		BBDCB8101BFFA0E8001B39B0 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = "hackday-ios-yammer-intro/Helpers/Common.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDCB7D81BFEAC31001B39B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDCB7EC1BFEAC31001B39B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDCB7F71BFEAC31001B39B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDCB7D21BFEAC31001B39B0 = {
+			isa = PBXGroup;
+			children = (
+				BBDCB8101BFFA0E8001B39B0 /* Common.swift */,
+				BBDCB80E1BFF946F001B39B0 /* IntroViewController.swift */,
+				BBDCB7DD1BFEAC31001B39B0 /* hackday-ios-yammer-intro */,
+				BBDCB7F21BFEAC31001B39B0 /* hackday-ios-yammer-introTests */,
+				BBDCB7FD1BFEAC31001B39B0 /* hackday-ios-yammer-introUITests */,
+				BBDCB7DC1BFEAC31001B39B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDCB7DC1BFEAC31001B39B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDCB7DB1BFEAC31001B39B0 /* hackday-ios-yammer-intro.app */,
+				BBDCB7EF1BFEAC31001B39B0 /* hackday-ios-yammer-introTests.xctest */,
+				BBDCB7FA1BFEAC31001B39B0 /* hackday-ios-yammer-introUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDCB7DD1BFEAC31001B39B0 /* hackday-ios-yammer-intro */ = {
+			isa = PBXGroup;
+			children = (
+				BBDCB7DE1BFEAC31001B39B0 /* AppDelegate.swift */,
+				BBDCB7E01BFEAC31001B39B0 /* ViewController.swift */,
+				BBDCB7E21BFEAC31001B39B0 /* Main.storyboard */,
+				BBDCB7E51BFEAC31001B39B0 /* Assets.xcassets */,
+				BBDCB7E71BFEAC31001B39B0 /* LaunchScreen.storyboard */,
+				BBDCB7EA1BFEAC31001B39B0 /* Info.plist */,
+			);
+			path = "hackday-ios-yammer-intro";
+			sourceTree = "<group>";
+		};
+		BBDCB7F21BFEAC31001B39B0 /* hackday-ios-yammer-introTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDCB7F31BFEAC31001B39B0 /* hackday_ios_yammer_introTests.swift */,
+				BBDCB7F51BFEAC31001B39B0 /* Info.plist */,
+			);
+			path = "hackday-ios-yammer-introTests";
+			sourceTree = "<group>";
+		};
+		BBDCB7FD1BFEAC31001B39B0 /* hackday-ios-yammer-introUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDCB7FE1BFEAC31001B39B0 /* hackday_ios_yammer_introUITests.swift */,
+				BBDCB8001BFEAC31001B39B0 /* Info.plist */,
+			);
+			path = "hackday-ios-yammer-introUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBDCB7DA1BFEAC31001B39B0 /* hackday-ios-yammer-intro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDCB8031BFEAC31001B39B0 /* Build configuration list for PBXNativeTarget "hackday-ios-yammer-intro" */;
+			buildPhases = (
+				BBDCB7D71BFEAC31001B39B0 /* Sources */,
+				BBDCB7D81BFEAC31001B39B0 /* Frameworks */,
+				BBDCB7D91BFEAC31001B39B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hackday-ios-yammer-intro";
+			productName = "hackday-ios-yammer-intro";
+			productReference = BBDCB7DB1BFEAC31001B39B0 /* hackday-ios-yammer-intro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBDCB7EE1BFEAC31001B39B0 /* hackday-ios-yammer-introTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDCB8061BFEAC31001B39B0 /* Build configuration list for PBXNativeTarget "hackday-ios-yammer-introTests" */;
+			buildPhases = (
+				BBDCB7EB1BFEAC31001B39B0 /* Sources */,
+				BBDCB7EC1BFEAC31001B39B0 /* Frameworks */,
+				BBDCB7ED1BFEAC31001B39B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDCB7F11BFEAC31001B39B0 /* PBXTargetDependency */,
+			);
+			name = "hackday-ios-yammer-introTests";
+			productName = "hackday-ios-yammer-introTests";
+			productReference = BBDCB7EF1BFEAC31001B39B0 /* hackday-ios-yammer-introTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBDCB7F91BFEAC31001B39B0 /* hackday-ios-yammer-introUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDCB8091BFEAC31001B39B0 /* Build configuration list for PBXNativeTarget "hackday-ios-yammer-introUITests" */;
+			buildPhases = (
+				BBDCB7F61BFEAC31001B39B0 /* Sources */,
+				BBDCB7F71BFEAC31001B39B0 /* Frameworks */,
+				BBDCB7F81BFEAC31001B39B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDCB7FC1BFEAC31001B39B0 /* PBXTargetDependency */,
+			);
+			name = "hackday-ios-yammer-introUITests";
+			productName = "hackday-ios-yammer-introUITests";
+			productReference = BBDCB7FA1BFEAC31001B39B0 /* hackday-ios-yammer-introUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDCB7D31BFEAC31001B39B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = mamuso;
+				TargetAttributes = {
+					BBDCB7DA1BFEAC31001B39B0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 72YUASYC42;
+					};
+					BBDCB7EE1BFEAC31001B39B0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 72YUASYC42;
+						TestTargetID = BBDCB7DA1BFEAC31001B39B0;
+					};
+					BBDCB7F91BFEAC31001B39B0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 72YUASYC42;
+						TestTargetID = BBDCB7DA1BFEAC31001B39B0;
+					};
+				};
+			};
+			buildConfigurationList = BBDCB7D61BFEAC31001B39B0 /* Build configuration list for PBXProject "hackday-ios-yammer-intro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDCB7D21BFEAC31001B39B0;
+			productRefGroup = BBDCB7DC1BFEAC31001B39B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDCB7DA1BFEAC31001B39B0 /* hackday-ios-yammer-intro */,
+				BBDCB7EE1BFEAC31001B39B0 /* hackday-ios-yammer-introTests */,
+				BBDCB7F91BFEAC31001B39B0 /* hackday-ios-yammer-introUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDCB7D91BFEAC31001B39B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDCB7E91BFEAC31001B39B0 /* LaunchScreen.storyboard in Resources */,
+				BBDCB7E61BFEAC31001B39B0 /* Assets.xcassets in Resources */,
+				BBDCB7E41BFEAC31001B39B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDCB7ED1BFEAC31001B39B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDCB7F81BFEAC31001B39B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDCB7D71BFEAC31001B39B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDCB8111BFFA0E8001B39B0 /* Common.swift in Sources */,
+				BBDCB80F1BFF946F001B39B0 /* IntroViewController.swift in Sources */,
+				BBDCB7E11BFEAC31001B39B0 /* ViewController.swift in Sources */,
+				BBDCB7DF1BFEAC31001B39B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDCB7EB1BFEAC31001B39B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDCB7F41BFEAC31001B39B0 /* hackday_ios_yammer_introTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDCB7F61BFEAC31001B39B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDCB7FF1BFEAC31001B39B0 /* hackday_ios_yammer_introUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBDCB7F11BFEAC31001B39B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDCB7DA1BFEAC31001B39B0 /* hackday-ios-yammer-intro */;
+			targetProxy = BBDCB7F01BFEAC31001B39B0 /* PBXContainerItemProxy */;
+		};
+		BBDCB7FC1BFEAC31001B39B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDCB7DA1BFEAC31001B39B0 /* hackday-ios-yammer-intro */;
+			targetProxy = BBDCB7FB1BFEAC31001B39B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBDCB7E21BFEAC31001B39B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDCB7E31BFEAC31001B39B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBDCB7E71BFEAC31001B39B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDCB7E81BFEAC31001B39B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBDCB8011BFEAC31001B39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBDCB8021BFEAC31001B39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDCB8041BFEAC31001B39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hackday-ios-yammer-intro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mamuso.hackday-ios-yammer-intro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBDCB8051BFEAC31001B39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hackday-ios-yammer-intro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mamuso.hackday-ios-yammer-intro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBDCB8071BFEAC31001B39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hackday-ios-yammer-introTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mamuso.hackday-ios-yammer-introTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackday-ios-yammer-intro.app/hackday-ios-yammer-intro";
+			};
+			name = Debug;
+		};
+		BBDCB8081BFEAC31001B39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hackday-ios-yammer-introTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mamuso.hackday-ios-yammer-introTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackday-ios-yammer-intro.app/hackday-ios-yammer-intro";
+			};
+			name = Release;
+		};
+		BBDCB80A1BFEAC31001B39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hackday-ios-yammer-introUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mamuso.hackday-ios-yammer-introUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hackday-ios-yammer-intro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBDCB80B1BFEAC31001B39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "hackday-ios-yammer-introUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mamuso.hackday-ios-yammer-introUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hackday-ios-yammer-intro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBDCB7D61BFEAC31001B39B0 /* Build configuration list for PBXProject "hackday-ios-yammer-intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDCB8011BFEAC31001B39B0 /* Debug */,
+				BBDCB8021BFEAC31001B39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDCB8031BFEAC31001B39B0 /* Build configuration list for PBXNativeTarget "hackday-ios-yammer-intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDCB8041BFEAC31001B39B0 /* Debug */,
+				BBDCB8051BFEAC31001B39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBDCB8061BFEAC31001B39B0 /* Build configuration list for PBXNativeTarget "hackday-ios-yammer-introTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDCB8071BFEAC31001B39B0 /* Debug */,
+				BBDCB8081BFEAC31001B39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBDCB8091BFEAC31001B39B0 /* Build configuration list for PBXNativeTarget "hackday-ios-yammer-introUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDCB80A1BFEAC31001B39B0 /* Debug */,
+				BBDCB80B1BFEAC31001B39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDCB7D31BFEAC31001B39B0 /* Project object */;
+}
